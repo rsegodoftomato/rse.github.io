@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="yuuki watabe">
+  <meta name="description" content="このページでは難易度も選べるタイピングゲームで遊ぶことができます。">
+  <meta name="keywords" content="RSE タイピング ゲーム 無料 フリー ブラウザ">
+  <title>タイピングゲームで遊ぼう！- RSE Typing</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/shark.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img src="images/shark2.png" alt="サメのアイコン画像">
+    <p>RSE Typing</p>
+    <a href="mailto:tamatoramii3&#64;gmail.com" class="inq">お問い合わせ</a>
+  </header>
+  <div class="sub-header">
+    <div class="text">
+      <p>タイピングゲームで遊ぼう！ ～ 無料のタイピングゲーム</p>
+    </div>
+    <img src="images/shark3.png" alt="サメのイラスト">
+  </div>
+  <div class="main">
+    <div class="content">
+      <div class="how-to">
+        <h1>遊び方</h1>
+        <ol>
+          <li> Enter を押します。</li>
+          <li> 単語の下にあるローマ字の通りに入力すると、次の単語に行きます。</li>
+          <li> 残りの単語数が０になればクリアです。</li>
+          <li> Shift + c でゲームを中断できます。</li>
+          <li> 再度遊ぶ場合は、もう一度 Enter を押してください。</li>
+        </ol>
+      </div>
+      <form class="difficulty" id="difficulty">
+        難易度を選択(単語数)：
+        <input type="radio" id="easy" name="difficulty" value="10" checked><label for="easy">易しい(10)</label>
+        <input type="radio" id="normal" name="difficulty" value="20"><label for="normal">普通(20)</label>
+        <input type="radio" id="difficult" name="difficulty" value="30"><label for="difficult">難しい(30)</label>
+        <input type="radio" id="verydifficult" name="difficulty" value="40"><label for="verydifficult">とても難しい(40)</label>
+        <input type="radio" id="devil" name="difficulty" value="50"><label for="devil">鬼(50)</label>
+        <input type="radio" id="hell" name="difficulty" value="60"><label for="hell">地獄(60)</label>
+      </form>
+      <div class="game">
+        <div id="num"></div>
+        <div id="text"></div>
+        <div id="key">Enter を押してゲームを始めよう！</div>
+        <div id="time"></div>
+      </div>
+    </div>
+    <!-- <nav>
+      
+    </nav> -->
+  </div>
+  <footer>
+    Have a fun!
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
