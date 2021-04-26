@@ -297,7 +297,8 @@
     { key: 'kyodouhusinn', text: '挙動不審' },
     { key: 'kosyou', text: '胡椒' },
     { key: 'saraudonn', text: '皿うどん' },
-    { key: 'retteru', text: 'レッテル' }
+    { key: 'retteru', text: 'レッテル' },
+    { key: 'sontaku', text: '忖度' }
   ];
   let stocks = [];
   let chars;
